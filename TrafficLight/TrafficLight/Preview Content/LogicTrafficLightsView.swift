@@ -17,7 +17,7 @@ enum PresentColor {
 struct LogicTrafficLightsView: View {
     
     @State private var presentColor = PresentColor.red
-    @State private var textButton = "Go"
+    @State private var textButton = "Next"
     
     @State private var red = 0.3
     @State private var yellow = 0.3
@@ -56,16 +56,17 @@ struct LogicTrafficLightsView: View {
             yellow = lightIsOn
             green = lightIsOff
             presentColor = .yellow
-        case .yellow:
-            red = lightIsOff
-            yellow = lightIsOn
-            green = lightIsOff
-            presentColor = .green
         case .green:
             red = lightIsOff
             yellow = lightIsOff
             green = lightIsOn
             presentColor = .red
+        case .yellow:
+            red = lightIsOff
+            yellow = lightIsOn
+            green = lightIsOff
+            presentColor = .green
+        
         }
     }
 }

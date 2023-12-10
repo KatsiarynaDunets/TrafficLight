@@ -15,18 +15,18 @@ struct SwitchButtonView: View {
     var body: some View {
         Button(action: action) {
             Text(label)
-                .font(.largeTitle)
+                .font(.title)
                 .bold()
                 .foregroundColor(.white)
         }
         .frame(width: 125, height: 60)
-        .background(.blue)
-        .cornerRadius(12)
+        .background(.black)
+        .cornerRadius(30)
     }
 }
 
 struct SwitchButtonView_Previews: PreviewProvider {
     static var previews: some View {
-        SwitchButtonView(label: "Старт", action: {} )
+        SwitchButtonView(label: "Go", action: {} )
     }
 }
