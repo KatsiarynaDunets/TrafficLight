@@ -16,6 +16,10 @@
 		5285B6902B265689006FA29E /* TrafficLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B68F2B265689006FA29E /* TrafficLightTests.swift */; };
 		5285B69A2B265689006FA29E /* TrafficLightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B6992B265689006FA29E /* TrafficLightUITests.swift */; };
 		5285B69C2B265689006FA29E /* TrafficLightUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B69B2B265689006FA29E /* TrafficLightUITestsLaunchTests.swift */; };
+		5285B6A92B2659C0006FA29E /* ColorCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B6A82B2659C0006FA29E /* ColorCircleView.swift */; };
+		5285B6AD2B265A3E006FA29E /* LogicTrafficLightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B6AC2B265A3E006FA29E /* LogicTrafficLightsView.swift */; };
+		5285B6AF2B265A68006FA29E /* ImportTrafficLightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B6AE2B265A68006FA29E /* ImportTrafficLightsView.swift */; };
+		5285B6B12B265AAA006FA29E /* SwitchButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285B6B02B265AAA006FA29E /* SwitchButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		5285B6952B265689006FA29E /* TrafficLightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrafficLightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5285B6992B265689006FA29E /* TrafficLightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightUITests.swift; sourceTree = "<group>"; };
 		5285B69B2B265689006FA29E /* TrafficLightUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficLightUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5285B6A82B2659C0006FA29E /* ColorCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleView.swift; sourceTree = "<group>"; };
+		5285B6AC2B265A3E006FA29E /* LogicTrafficLightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicTrafficLightsView.swift; sourceTree = "<group>"; };
+		5285B6AE2B265A68006FA29E /* ImportTrafficLightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportTrafficLightsView.swift; sourceTree = "<group>"; };
+		5285B6B02B265AAA006FA29E /* SwitchButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +108,6 @@
 			children = (
 				5285B6792B265687006FA29E /* TrafficLightApp.swift */,
 				5285B67B2B265687006FA29E /* ContentView.swift */,
-				5285B67D2B265689006FA29E /* Assets.xcassets */,
 				5285B6822B265689006FA29E /* Persistence.swift */,
 				5285B6842B265689006FA29E /* TrafficLight.xcdatamodeld */,
 				5285B67F2B265689006FA29E /* Preview Content */,
@@ -111,7 +118,12 @@
 		5285B67F2B265689006FA29E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				5285B67D2B265689006FA29E /* Assets.xcassets */,
 				5285B6802B265689006FA29E /* Preview Assets.xcassets */,
+				5285B6A82B2659C0006FA29E /* ColorCircleView.swift */,
+				5285B6AC2B265A3E006FA29E /* LogicTrafficLightsView.swift */,
+				5285B6AE2B265A68006FA29E /* ImportTrafficLightsView.swift */,
+				5285B6B02B265AAA006FA29E /* SwitchButtonView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -263,8 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5285B6AF2B265A68006FA29E /* ImportTrafficLightsView.swift in Sources */,
 				5285B6862B265689006FA29E /* TrafficLight.xcdatamodeld in Sources */,
 				5285B6832B265689006FA29E /* Persistence.swift in Sources */,
+				5285B6AD2B265A3E006FA29E /* LogicTrafficLightsView.swift in Sources */,
+				5285B6A92B2659C0006FA29E /* ColorCircleView.swift in Sources */,
+				5285B6B12B265AAA006FA29E /* SwitchButtonView.swift in Sources */,
 				5285B67C2B265687006FA29E /* ContentView.swift in Sources */,
 				5285B67A2B265687006FA29E /* TrafficLightApp.swift in Sources */,
 			);
